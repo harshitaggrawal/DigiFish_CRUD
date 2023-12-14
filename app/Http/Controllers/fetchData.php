@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\students;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Foundation\Validation\ValidatesRequests;
+
 class fetchData extends Controller
 {
     public function index()
